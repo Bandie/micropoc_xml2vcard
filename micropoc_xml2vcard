@@ -51,9 +51,9 @@ def doEet(infile, outfile):
         counter+=1
         tel = c.find('extension').text
         name = c.find('name').text
-        loc = c.find('location').text
+#        loc = c.find('location').text
 
-        entry = "BEGIN:vCard\nVERSION:3.0\nN:{}\nTEL;type=voice:{}\nCATEGORIES:EPVPN\nNOTE:Location: {}\nEND:vCard\n\n".format(name, tel, loc)
+        entry = "BEGIN:vCard\nVERSION:3.0\nN:{}\nTEL;type=voice:{}\nCATEGORIES:micropoc\nEND:vCard\n\n".format(name, tel)
 
         f.write(entry)
     
