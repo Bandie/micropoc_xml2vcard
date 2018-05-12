@@ -1,4 +1,4 @@
-# epvpn\_xml2vcard
+# micropoc\_xml2vcard
 For [micropoc](https://micropoc.de): Takes the XML file you've downloaded before and generates a vCard (makes sense for Android and stuff).
 
 
